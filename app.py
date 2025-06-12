@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
 def get_db_connection():
-    conn = psycopg2.connect(database = "flask-demo", 
+    conn = psycopg2.connect(database = "flaskdemo", 
                             user = "postgres", 
                             password = "nimmakgod", 
                             host = "localhost", 
