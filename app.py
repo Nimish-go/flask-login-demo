@@ -7,8 +7,8 @@ app.secret_key = 'your_secret_key'
 def get_db_connection():
     conn = psycopg2.connect(database = "flaskdemo", 
                             user = "nimish", 
-                            password = "nimmakgod", 
-                            host = "localhost", 
+                            password = "PDolikaM7RrdDDyNm4CnRPkOOWrponpB", 
+                            host = "dpg-d15ci33uibrs73br3l7g-a.oregon-postgres.render.com", 
                             port="5432")
     
     if conn :
